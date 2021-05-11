@@ -41,7 +41,7 @@ class MyApp extends StatelessWidget {
                       color: Color.fromARGB(0xFF, 0x00, 0x9e, 0xe3),
                       fontWeight: FontWeight.w600,
                       fontSize: 20))),
-          home: ExpandIteration(),
+          home: ExecutionAreaList(),
           routes: {
             PageRoutes.executionarea: (context) => ExecutionAreaList(),
             PageRoutes.iteration: (context) => IterationList(),
